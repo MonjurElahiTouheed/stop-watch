@@ -11,11 +11,13 @@
 
 <body>
     <main>
-        <section class="w-72 mx-auto">
-            <p id="countNumber" class="font-bold text-blue-600 text-9xl text-center mb-2">0</p>
-            <button id="startBtn" class="btn btn-info btn-lg" onclick="startClock()">Start</button>
-            <button id="stopBtn" class="btn btn-info btn-lg" disabled onclick="stopClock()">Stop</button>
-            <button id="resetBtn" class="btn btn-info btn-lg" disabled onclick="resetClock()">Reset</button>
+        <section class="w-[18.5rem] mt-60 mx-auto">
+            <p id="countNumber" class="font-bold text-blue-600 text-9xl text-center mb-4">0</p>
+            <div>
+                <button id="startBtn" class="btn btn-info btn-lg text-white text-lg" onclick="startClock()">Start</button>
+                <button id="stopBtn" class="btn btn-info btn-lg mx-2 text-white text-lg" disabled onclick="stopClock()">Stop</button>
+                <button id="resetBtn" class="btn btn-info btn-lg text-white text-lg" disabled onclick="resetClock()">Reset</button>
+            </div>
         </section>
     </main>
     <script src="stop-watch.js"></script>
