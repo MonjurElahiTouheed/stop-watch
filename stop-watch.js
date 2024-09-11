@@ -26,7 +26,7 @@ const stopClock = () =>{
 const resetClock = () => {
     clearInterval(intervalId);
     count = 0;
-    countNumberTag.innerText = '0';
+    countNumberTag.innerText = count;
     stopBtn.disabled = true;
     resetBtn.disabled = true;
 }
